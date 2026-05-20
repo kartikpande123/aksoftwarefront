@@ -67,23 +67,30 @@ const workStyles = `
   }
 
   /* ════════════════════════════════
-     BINARY RAIN — Projects section bg
+     DOT ANIMATION - From Header Component
   ════════════════════════════════ */
-  .projects-bg {
-    position: relative;
-  }
-  .projects-canvas {
+  .work-dot-canvas {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 0;
-    opacity: 0.35;
+    overflow: hidden;
   }
-  .projects-bg > *:not(.projects-canvas) {
-    position: relative;
-    z-index: 1;
+
+  .work-dot {
+    position: absolute;
+    width: 1.5px;
+    height: 1.5px;
+    border-radius: 50%;
+    background: var(--ak-text-secondary);
+    opacity: 0;
+    animation: dotFade var(--d, 4s) var(--delay, 0s) ease-in-out infinite;
+  }
+
+  @keyframes dotFade {
+    0%, 100% { opacity: 0; transform: translateY(0); }
+    50%      { opacity: 0.5; transform: translateY(-15px); }
   }
 
   /* ════════════════════════════════
@@ -354,10 +361,10 @@ const workStyles = `
   }
 
   /* ── SHARED CARD STYLES ── */
-  .work-page { background: var(--ak-bg); font-family: 'Inter', sans-serif; min-height: 100vh; overflow-x: hidden; }
+  .work-page { background: var(--ak-bg); font-family: 'Inter', sans-serif; min-height: 100vh; overflow-x: hidden; position: relative; }
   body { overflow-x: hidden; }
 
-  .work-section { padding: 52px 0; position: relative; }
+  .work-section { padding: 52px 0; position: relative; z-index: 2; }
   .work-section-title {
     text-align: center;
     font-size: 2.5rem;
@@ -514,45 +521,32 @@ const workStyles = `
 `
 
 /* ════════════════════════════════════════
-   BINARY RAIN CANVAS — Projects section
+   DOT ANIMATION COMPONENT - From Header
 ════════════════════════════════════════ */
-function BinaryRainCanvas() {
-  const canvasRef = useRef(null)
-  useEffect(() => {
-    const canvas = canvasRef.current
-    if (!canvas) return
-    const ctx = canvas.getContext('2d')
-    let W = canvas.width = canvas.offsetWidth
-    let H = canvas.height = canvas.offsetHeight
-    let animId
+function DotAnimation() {
+  const dots = Array.from({ length: 30 }, () => ({
+    left: `${Math.random() * 100}%`,
+    top: `${Math.random() * 100}%`,
+    delay: `${(Math.random() * 5).toFixed(1)}s`,
+    duration: `${(3 + Math.random() * 4).toFixed(1)}s`,
+  }))
 
-    const COLS = Math.floor(W / 18)
-    const drops = Array.from({ length: COLS }, () => Math.random() * -H / 14)
-    const chars = '01⟨⟩{}[];=>:</>function()=>'
-
-    function draw() {
-      ctx.fillStyle = 'rgba(10,10,10,0.06)'
-      ctx.fillRect(0, 0, W, H)
-      ctx.font = '11px monospace'
-      drops.forEach((y, i) => {
-        const ch = chars[Math.floor(Math.random() * chars.length)]
-        const alpha = 0.06 + Math.random() * 0.08
-        ctx.fillStyle = `rgba(59,130,246,${alpha})`
-        ctx.fillText(ch, i * 18 + 2, y * 14)
-        if (y * 14 > H && Math.random() > 0.975) drops[i] = 0
-        else drops[i] += 0.35
-      })
-      animId = requestAnimationFrame(draw)
-    }
-    draw()
-    const onResize = () => {
-      W = canvas.width = canvas.offsetWidth
-      H = canvas.height = canvas.offsetHeight
-    }
-    window.addEventListener('resize', onResize)
-    return () => { cancelAnimationFrame(animId); window.removeEventListener('resize', onResize) }
-  }, [])
-  return <canvas ref={canvasRef} className="projects-canvas" />
+  return (
+    <div className="work-dot-canvas">
+      {dots.map((d, i) => (
+        <div
+          key={i}
+          className="work-dot"
+          style={{ 
+            left: d.left, 
+            top: d.top, 
+            '--delay': d.delay, 
+            '--d': d.duration 
+          }}
+        />
+      ))}
+    </div>
+  )
 }
 
 /* ════════════════════════════════════════
@@ -724,12 +718,12 @@ export default function Work() {
       <AppNavbar />
 
       <div className="work-page">
+        {/* Dot Animation Background - replacing binary rain */}
+        <DotAnimation />
+
         <Container>
-
-          {/* ── Section 1: Recent Projects (binary rain bg) ── */}
-          <div className="work-section projects-bg">
-            <BinaryRainCanvas />
-
+          {/* ── Section 1: Recent Projects ── */}
+          <div className="work-section">
             <h2 className="work-section-title reveal" data-reveal>Recent Projects</h2>
             <p className="work-section-sub reveal" data-reveal>Transforming ideas into impactful digital solutions</p>
 

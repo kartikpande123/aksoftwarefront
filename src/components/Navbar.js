@@ -124,7 +124,7 @@ const navStyles = `
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 0.9rem;
-    color: var(--ak-muted) !important;
+    color: #B0B8C5;
     letter-spacing: normal;
     padding: 6px 14px !important;
     border-radius: 6px;
@@ -158,6 +158,11 @@ const navStyles = `
     height: 2px;
     background: var(--ak-accent);
     border-radius: 2px;
+  }
+
+  /* ── Why Choose Us — unique color only ── */
+  .ak-nav-link.ak-highlight-link {
+    color: #f59e0b !important;
   }
 
   /* ── CTA Button ── */
@@ -276,6 +281,7 @@ export default function AppNavbar() {
     else if (path === '/ourwork') setActiveItem('Work')
     else if (path === '/about') setActiveItem('About')
     else if (path === '/services') setActiveItem('Services')
+    else if (path === '/whychooseus') setActiveItem('Why Choose Us')
     else if (path === '/contact') setActiveItem('Contact')
     else if (path === '/price') setActiveItem('')
     else setActiveItem('')
@@ -292,7 +298,7 @@ export default function AppNavbar() {
     { name: 'Work', path: '/ourwork' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Why Choose Us', path: '/whychooseus' },
+    { name: 'Why Choose Us', path: '/whychooseus', highlight: true },
   ]
 
   return (
@@ -331,7 +337,11 @@ export default function AppNavbar() {
               {navItems.map(item => (
                 <Nav.Link
                   key={item.name}
-                  className={`ak-nav-link${activeItem === item.name ? ' active' : ''}`}
+                  className={[
+                    'ak-nav-link',
+                    activeItem === item.name ? 'active' : '',
+                    item.highlight ? 'ak-highlight-link' : '',
+                  ].filter(Boolean).join(' ')}
                   onClick={() => handleNavigation(item.path, item.name)}
                 >
                   <span className="ak-link-text">{item.name}</span>

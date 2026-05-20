@@ -21,6 +21,8 @@ import AdminContact from "./components/AdminContact";
 import AdminStdReq from "./components/AdminStdReq";
 import Price from "./components/Price";
 import WhyChoose from "./components/WhyChoose";
+import PriceForm from "./components/PriceForm";
+import AdminWebOrder from "./components/AdminWebOrder";
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
           <Route path="/terms" element={<TermsConditions/>} />
           <Route path="/price" element={<Price/>} />
           <Route path="/whychooseus" element={<WhyChoose/>} />
+          <Route path="/priceform" element={<PriceForm/>} />
+          <Route path="/adminweborder" element={<AdminWebOrder/>} />
         </Routes>
       </div>
     </Router>

@@ -23,7 +23,7 @@ import {
 
 // Import local images for Website plans
 import web1 from "../images/web1.jpg"
-import web2 from "../images/web2.jpg"
+import web2 from "../images/web.2.2.2.jpg"
 import web3 from "../images/web3.jpg"
 import web4 from "../images/web4.jpg"
 import web5 from "../images/web5.jpg"
@@ -165,7 +165,7 @@ const headerStyles = `
     margin-top: 1.5rem;
     font-size: clamp(0.95rem, 2vw, 1.1rem);
     font-weight: 400;
-    color: var(--ak-muted);
+    color: #B0B8C5;
     line-height: 1.6;
     max-width: 580px;
     margin-left: auto;

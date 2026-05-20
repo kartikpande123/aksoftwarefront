@@ -434,35 +434,35 @@ const planDetails = {
       "Perfect for small businesses, portfolios, and informational websites. A fast, responsive, and SEO-friendly static website.",
     features: [
       {
-        title: "📄 Up to 5 Pages",
+        title: " Up to 5 Pages",
         desc: "We design up to 5 pages for your website — like Home, About Us, Services, Gallery, and Contact. You tell us what you need, we build it professionally.",
       },
       {
-        title: "📱 Works on All Devices",
+        title: " Works on All Devices",
         desc: "Your website will look great on any phone, tablet, or computer. Visitors won't need to zoom in or scroll sideways — it adjusts automatically.",
       },
       {
-        title: "🔍 Shows Up on Google",
+        title: " Shows Up on Google",
         desc: "We build your site in a way that helps Google find and rank it. More visibility means more customers discovering you online — without paying for ads.",
       },
       {
-        title: "📩 Contact Form",
+        title: " Contact Form",
         desc: "Visitors can send you a message directly from your website. You'll get their name, number, or query straight to your email — no need to share your personal number publicly.",
       },
       {
-        title: "🔗 Social Media Links",
+        title: " Social Media Links",
         desc: "We connect your Instagram, Facebook, LinkedIn, or any other profile to your website. Visitors can follow you in one tap.",
       },
       {
-        title: "📊 Visitor Tracking (Google Analytics)",
+        title: " Visitor Tracking (Google Analytics)",
         desc: "See how many people visit your site, which pages they read, and where they come from — all in a simple, free dashboard.",
       },
       {
-        title: "⚡ Fast Loading Speed",
+        title: " Fast Loading Speed",
         desc: "Nobody waits for a slow website. We make sure your site loads in seconds so visitors don't leave before they even see your content.",
       },
       {
-        title: "🔒 Basic Security",
+        title: " Basic Security",
         desc: "We add essential protections to keep your website safe from common online threats and prevent misuse.",
       },
     ],
@@ -502,39 +502,39 @@ const planDetails = {
       "Complete static website package with 1 year of free hosting. Everything you need to get online quickly.",
     features: [
       {
-        title: "📄 Up to 5 Pages",
+        title: " Up to 5 Pages",
         desc: "We design up to 5 pages for your website — like Home, About Us, Services, Gallery, and Contact. Fully tailored to your business.",
       },
       {
-        title: "📱 Works on All Devices",
+        title: " Works on All Devices",
         desc: "Your website looks and works perfectly on mobiles, tablets, and desktops — no extra effort needed from your side.",
       },
       {
-        title: "🔍 Shows Up on Google",
+        title: " Shows Up on Google",
         desc: "We structure your website so search engines like Google can easily find and show it to people searching for your business.",
       },
       {
-        title: "📩 Contact Form",
+        title: " Contact Form",
         desc: "A ready-to-use form so customers can reach you directly from your website. Replies land straight in your inbox.",
       },
       {
-        title: "🔗 Social Media Links",
+        title: " Social Media Links",
         desc: "We add your social profiles so visitors can follow you on Instagram, Facebook, or wherever you are.",
       },
       {
-        title: "🌐 We Handle Hosting",
+        title: " We Handle Hosting",
         desc: "Once your website is ready, we host it for you. You don’t need to deal with servers or setup — we take care of everything.",
       },
       {
-        title: "🌍 Free Domain Assistance",
+        title: " Free Domain Assistance",
         desc: "We help you pick and set up a domain name (like www.yourbusiness.com) so your site has a professional web address.",
       },
       {
-        title: "🔐 SSL Certificate Included",
+        title: " SSL Certificate Included",
         desc: "Your website will show the padlock icon (https://) which tells visitors your site is safe and trustworthy — also helps with Google ranking.",
       },
       {
-        title: "📧 Email Support",
+        title: " Email Support",
         desc: "Got a question after delivery? Just email us and we'll help you out.",
       },
     ],
@@ -570,39 +570,39 @@ const planDetails = {
       "Full-featured dynamic website with admin panel. Manage content, users, and settings easily.",
     features: [
       {
-        title: "🛠️ Custom Admin Panel",
+        title: " Custom Admin Panel",
         desc: "You get a private dashboard where you can manage your website content yourself — no coding needed. Update text, images, and more from one place.",
       },
       {
-        title: "📝 Content Management System",
+        title: " Content Management System",
         desc: "Add, edit, or delete content on your website anytime you want — just like editing a Word document, but for your website.",
       },
       {
-        title: "👥 User Management",
+        title: " User Management",
         desc: "See who has registered on your website, manage their accounts, and control what they can access.",
       },
       {
-        title: "🗄️ Database Integration",
+        title: " Database Integration",
         desc: "All your data — customers, leads, content — is stored safely in a cloud database and can be accessed anytime.",
       },
       {
-        title: "🔑 Role-Based Access",
+        title: " Role-Based Access",
         desc: "Give different team members different levels of access. For example, an editor can update content but can't delete users.",
       },
       {
-        title: "🔍 SEO Management",
+        title: " SEO Management",
         desc: "Control how each page of your website appears on Google — update titles, descriptions, and keywords from the admin panel.",
       },
       {
-        title: "📰 Blog / News Module",
+        title: " Blog / News Module",
         desc: "Publish articles, news updates, or blog posts directly from your admin panel. Great for keeping your website fresh and engaging.",
       },
       {
-        title: "📩 Contact Form with Database",
+        title: " Contact Form with Database",
         desc: "All messages sent through your contact form are saved in your dashboard — so you never lose a customer inquiry.",
       },
       {
-        title: "📊 Analytics Dashboard",
+        title: " Analytics Dashboard",
         desc: "See your website's performance data — visitors, popular pages, and more — all inside your admin panel.",
       },
     ],
@@ -638,39 +638,39 @@ const planDetails = {
       "Dynamic website with Payment Gateway integration. Perfect for e-commerce and service bookings.",
     features: [
       {
-        title: "🌐 Complete Dynamic Website",
+        title: " Complete Dynamic Website",
         desc: "A fully functional website where content updates in real time — perfect for stores, bookings, and service businesses.",
       },
       {
-        title: "💳 Payment Gateway Integration",
+        title: " Payment Gateway Integration",
         desc: "Accept online payments directly on your website. Customers can pay by UPI, card, net banking, or wallets.",
       },
       {
-        title: "📲 Razorpay / Stripe Support",
+        title: " Razorpay / Stripe Support",
         desc: "We integrate India's most trusted payment platforms — Razorpay for Indian payments and Stripe for international ones.",
       },
       {
-        title: "📦 Order Management System",
+        title: " Order Management System",
         desc: "Track every order placed on your website — see status, customer details, and payment info all from one dashboard.",
       },
       {
-        title: "🛍️ Product / Service Catalog",
+        title: " Product / Service Catalog",
         desc: "List all your products or services with photos, prices, and descriptions. Customers can browse and buy easily.",
       },
       {
-        title: "🛒 Shopping Cart",
+        title: " Shopping Cart",
         desc: "Customers can add multiple items to a cart and checkout in one go — just like on any major shopping website.",
       },
       {
-        title: "📧 Email Notifications",
+        title: " Email Notifications",
         desc: "Automatic emails are sent to you and your customer whenever an order is placed, confirmed, or updated.",
       },
       {
-        title: "🧾 Invoice Generation",
+        title: " Invoice Generation",
         desc: "A professional invoice is automatically created for every order — you and your customer both get a copy.",
       },
       {
-        title: "📋 Transaction History",
+        title: " Transaction History",
         desc: "See a complete record of all payments received — helpful for accounting and customer support.",
       },
     ],
@@ -713,43 +713,43 @@ const planDetails = {
       "Enterprise-grade website with Payment Gateway and OTP verification for maximum security.",
     features: [
       {
-        title: "🌐 Complete Dynamic Website",
+        title: " Complete Dynamic Website",
         desc: "A fully featured website with real-time updates — built to handle large volumes of users and transactions safely.",
       },
       {
-        title: "💳 Payment Gateway Integration",
+        title: " Payment Gateway Integration",
         desc: "Accept all types of online payments — UPI, cards, net banking, and wallets — fully integrated and tested.",
       },
       {
-        title: "📲 OTP Verification System",
+        title: " OTP Verification System",
         desc: "Users verify their phone number or email with a one-time password before logging in or making a payment. This stops fake accounts and fraud.",
       },
       {
-        title: "📱 SMS Integration",
+        title: " SMS Integration",
         desc: "Automatic SMS messages are sent to users for OTP verification, order confirmation, and important updates.",
       },
       {
-        title: "🔐 Advanced Security Features",
+        title: " Advanced Security Features",
         desc: "Multiple layers of security protect your website and your customers' data from hackers and online threats.",
       },
       {
-        title: "🔏 Two-Factor Authentication",
+        title: " Two-Factor Authentication",
         desc: "Users need both their password AND an OTP to log in — making it much harder for anyone to break into accounts.",
       },
       {
-        title: "📦 Order Management System",
+        title: " Order Management System",
         desc: "A complete system to manage, track, and update every order placed on your website.",
       },
       {
-        title: "👤 User Dashboard",
+        title: " User Dashboard",
         desc: "Each customer gets their own personal dashboard to track orders, manage their profile, and view transaction history.",
       },
       {
-        title: "📧 Email & SMS Notifications",
+        title: " Email & SMS Notifications",
         desc: "Automatic messages are sent via both email and SMS for every important action — order placed, payment received, etc.",
       },
       {
-        title: "🕵️ Fraud Detection",
+        title: " Fraud Detection",
         desc: "Smart checks are in place to catch suspicious activity and block fraudulent transactions before they happen.",
       },
     ],
@@ -796,39 +796,39 @@ const planDetails = {
       "Perfect for informational apps, portfolio showcases, and simple business presentations. A lightweight and fast Android application.",
     features: [
       {
-        title: "📱 Up to 5 Screens",
+        title: " Up to 5 Screens",
         desc: "We design up to 5 screens for your app — like Home, About, Services, Gallery, and Contact. Clean, professional, and easy to navigate.",
       },
       {
-        title: "🎨 Material Design UI",
+        title: " Material Design UI",
         desc: "Your app will follow Google's design guidelines — meaning it looks modern, familiar, and easy to use for any Android user.",
       },
       {
-        title: "🔄 Smooth Navigation",
+        title: " Smooth Navigation",
         desc: "Users can move between screens easily with smooth transitions — no lag, no confusion.",
       },
       {
-        title: "📶 Offline Content Support",
+        title: " Offline Content Support",
         desc: "Basic content in your app will still be visible even without internet — so users can always access key information.",
       },
       {
-        title: "🔔 Push Notifications",
+        title: " Push Notifications",
         desc: "Send alerts and updates directly to your users' phones — great for promotions, reminders, or announcements.",
       },
       {
-        title: "🖼️ App Icon & Splash Screen",
+        title: " App Icon & Splash Screen",
         desc: "Your app will have a custom icon on the phone and a branded splash screen that shows when the app opens — making a great first impression.",
       },
       {
-        title: "🏪 Play Store Listing Support",
+        title: " Play Store Listing Support",
         desc: "We help you prepare everything needed to publish your app on the Google Play Store — so users can download it easily.",
       },
       {
-        title: "📊 Basic Analytics Integration",
+        title: " Basic Analytics Integration",
         desc: "Track how many people use your app, which screens they visit, and how long they stay — useful data for growing your business.",
       },
       {
-        title: "📐 Works on All Android Phones",
+        title: " Works on All Android Phones",
         desc: "Your app will look and work properly on all screen sizes — from budget phones to high-end devices.",
       },
     ],
@@ -871,43 +871,43 @@ const planDetails = {
       "Dynamic Android app with cloud database integration. Perfect for apps requiring user data storage, login systems, and real-time content updates.",
     features: [
       {
-        title: "📱 Unlimited Screens",
+        title: " Unlimited Screens",
         desc: "No limit on how many screens your app can have — we build as many as your app needs to work properly.",
       },
       {
-        title: "🔐 User Login & Registration",
+        title: " User Login & Registration",
         desc: "Users can create their own accounts and log in securely. Supports email/password and social logins.",
       },
       {
-        title: "☁️ Cloud Database Integration",
+        title: " Cloud Database Integration",
         desc: "All user data — profiles, posts, bookings — is stored safely in the cloud. Accessible anytime, from any device.",
       },
       {
-        title: "⚡ Real-Time Data Sync",
+        title: " Real-Time Data Sync",
         desc: "When something changes in your app — like a new message or update — it appears instantly without needing to refresh.",
       },
       {
-        title: "👤 User Profile Management",
+        title: " User Profile Management",
         desc: "Each user gets their own profile page where they can view and update their personal information.",
       },
       {
-        title: "🛠️ Admin Dashboard",
+        title: " Admin Dashboard",
         desc: "You get a web-based admin panel to manage all users, content, and app data — without touching any code.",
       },
       {
-        title: "🔔 Push Notifications",
+        title: " Push Notifications",
         desc: "Send targeted messages to your users' phones — for updates, promotions, or reminders.",
       },
       {
-        title: "🔄 In-App Updates",
+        title: " In-App Updates",
         desc: "Push new content or announcements to all users instantly — no need to release a new app version.",
       },
       {
-        title: "💾 Data Backup & Restore",
+        title: " Data Backup & Restore",
         desc: "Your app data is automatically backed up in the cloud — no risk of losing important information.",
       },
       {
-        title: "🔌 Secure API Integration",
+        title: " Secure API Integration",
         desc: "Your app connects securely to your backend server — all data is encrypted and protected.",
       },
     ],
@@ -953,55 +953,55 @@ const planDetails = {
       "Full-featured e-commerce Android app with secure payment gateway integration. Built for online stores, service bookings, and subscription platforms.",
     features: [
       {
-        title: "🛍️ Complete E-commerce Features",
+        title: " Complete E-commerce Features",
         desc: "Everything you need to run an online store in an app — product listings, cart, checkout, order tracking, and more.",
       },
       {
-        title: "💳 Payment Gateway Integration",
+        title: " Payment Gateway Integration",
         desc: "Accept online payments securely inside your app. Customers can pay via UPI, cards, net banking, or wallets.",
       },
       {
-        title: "📲 Razorpay / Stripe / PhonePe Support",
+        title: " Razorpay / Stripe / PhonePe Support",
         desc: "We integrate the most popular and trusted payment platforms in India and globally — whichever suits your business.",
       },
       {
-        title: "📦 Product Catalog Management",
+        title: " Product Catalog Management",
         desc: "Easily add, edit, or remove products with photos, descriptions, and prices — all from your admin panel.",
       },
       {
-        title: "🛒 Shopping Cart System",
+        title: " Shopping Cart System",
         desc: "Customers can add multiple items and checkout in one step — a smooth buying experience like on Amazon or Flipkart.",
       },
       {
-        title: "🚚 Order Tracking",
+        title: " Order Tracking",
         desc: "Customers can track the status of their orders in real time — from placed to delivered.",
       },
       {
-        title: "👛 User Wallet Integration",
+        title: " User Wallet Integration",
         desc: "Customers can add money to a wallet inside your app and use it for faster checkout on future purchases.",
       },
       {
-        title: "🧾 Invoice Generation",
+        title: " Invoice Generation",
         desc: "A professional invoice is automatically generated for every order — both you and your customer receive a copy.",
       },
       {
-        title: "🏷️ Coupon & Discount System",
+        title: " Coupon & Discount System",
         desc: "Create discount codes and offers to attract more customers and run promotions easily.",
       },
       {
-        title: "⭐ Ratings & Reviews",
+        title: " Ratings & Reviews",
         desc: "Customers can rate and review products — helps build trust and helps others make better buying decisions.",
       },
       {
-        title: "❤️ Wishlist Feature",
+        title: " Wishlist Feature",
         desc: "Users can save products they like and come back to buy them later — increases the chances of a sale.",
       },
       {
-        title: "📋 Order History",
+        title: " Order History",
         desc: "Customers can see all their past orders in one place — easy to reorder or raise a query.",
       },
       {
-        title: "🔐 Secure Payment Processing",
+        title: " Secure Payment Processing",
         desc: "All payment data is fully encrypted and handled according to industry security standards — safe for you and your customers.",
       },
     ],
@@ -1058,39 +1058,39 @@ const planDetails = {
       "Need something specific for your website? Let us create a custom solution tailored to your exact requirements.",
     features: [
       {
-        title: "🎯 Tailored Functionality",
+        title: " Tailored Functionality",
         desc: "We build exactly what your business needs — no unnecessary features, no missing ones.",
       },
       {
-        title: "⚙️ Custom Features Development",
+        title: " Custom Features Development",
         desc: "Have a unique idea? We can build features that don't exist anywhere else — made just for you.",
       },
       {
-        title: "📈 Scalable Architecture",
+        title: " Scalable Architecture",
         desc: "Built to grow with your business — whether you have 10 users or 10,000, the website will handle it.",
       },
       {
-        title: "🔌 Third-Party Integrations",
+        title: " Third-Party Integrations",
         desc: "We connect your website to any external tools you use — CRMs, ERPs, maps, communication platforms, and more.",
       },
       {
-        title: "🔗 API Development",
+        title: " API Development",
         desc: "We build custom APIs so your website can talk to other apps, mobile apps, or services securely.",
       },
       {
-        title: "🗄️ Custom Database Design",
+        title: " Custom Database Design",
         desc: "Your data is structured exactly the way your business logic requires — fast, organised, and easy to manage.",
       },
       {
-        title: "🔐 Advanced Security Implementation",
+        title: " Advanced Security Implementation",
         desc: "We apply the highest security standards — encryption, access controls, and monitoring — to keep your platform safe.",
       },
       {
-        title: "⚡ Performance Optimization",
+        title: " Performance Optimization",
         desc: "Your website is fine-tuned to load fast and run smoothly — even under heavy traffic.",
       },
       {
-        title: "🛡️ Lifetime Support Options",
+        title: " Lifetime Support Options",
         desc: "Choose a long-term maintenance and support plan so your website always stays updated and running.",
       },
     ],
@@ -1126,39 +1126,39 @@ const planDetails = {
       "Need something specific? Let us create a custom solution tailored to your exact requirements.",
     features: [
       {
-        title: "🎯 Tailored Functionality",
+        title: " Tailored Functionality",
         desc: "We build exactly what your business needs — no unnecessary features, no missing ones.",
       },
       {
-        title: "⚙️ Custom Features Development",
+        title: " Custom Features Development",
         desc: "Have a unique idea? We can build features that don't exist anywhere else — made just for you.",
       },
       {
-        title: "📈 Scalable Architecture",
+        title: " Scalable Architecture",
         desc: "Built to grow with your business — whether you have 10 users or 10,000, the solution will handle it.",
       },
       {
-        title: "🔌 Third-Party Integrations",
+        title: " Third-Party Integrations",
         desc: "We connect your platform to any external tools — CRMs, payment systems, maps, communication tools, and more.",
       },
       {
-        title: "🔗 API Development",
+        title: " API Development",
         desc: "We build custom APIs so your platform can talk to other apps and services securely.",
       },
       {
-        title: "🗄️ Custom Database Design",
+        title: " Custom Database Design",
         desc: "Your data is structured exactly the way your business needs — fast, organised, and easy to manage.",
       },
       {
-        title: "🔐 Advanced Security Implementation",
+        title: " Advanced Security Implementation",
         desc: "Top-level security standards applied across the board — encryption, access controls, and real-time monitoring.",
       },
       {
-        title: "⚡ Performance Optimization",
+        title: " Performance Optimization",
         desc: "Fine-tuned to load fast and run smoothly — even during high traffic or heavy usage.",
       },
       {
-        title: "🛡️ Lifetime Support Options",
+        title: " Lifetime Support Options",
         desc: "Choose a long-term maintenance plan so your platform always stays up-to-date and running.",
       },
     ],
@@ -1239,6 +1239,18 @@ export default function Price() {
         {tech}
       </span>
     ));
+  };
+
+  const handleGetStarted = () => {
+    // Navigate to PriceForm with selected plan details as props
+    navigate("/priceform", {
+      state: {
+        selectedPlan: selectedPlan,
+        planName: displayName,
+        planPrice: displayPrice,
+        planType: plan.category,
+      },
+    });
   };
 
   return (
@@ -1365,10 +1377,7 @@ export default function Price() {
 
           {/* CTA Button */}
           <div className="pr-cta">
-            <button
-              className="pr-get-started"
-              onClick={() => navigate("/contact")}
-            >
+            <button className="pr-get-started" onClick={handleGetStarted}>
               Get Started Now{" "}
               <ArrowLeft size={16} style={{ transform: "rotate(180deg)" }} />
             </button>
